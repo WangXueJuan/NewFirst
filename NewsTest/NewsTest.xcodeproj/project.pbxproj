@@ -16,6 +16,7 @@
 		7A1EF2F01C32215E000EB69C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A1EF2EE1C32215E000EB69C /* LaunchScreen.storyboard */; };
 		7A1EF2FB1C32215F000EB69C /* NewsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1EF2FA1C32215F000EB69C /* NewsTestTests.m */; };
 		7A1EF3061C322160000EB69C /* NewsTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1EF3051C322160000EB69C /* NewsTestUITests.m */; };
+		7A1EF3161C32363C000EB69C /* 103-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1EF3151C32363C000EB69C /* 103-map.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		7A1EF3011C32215F000EB69C /* NewsTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A1EF3051C322160000EB69C /* NewsTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsTestUITests.m; sourceTree = "<group>"; };
 		7A1EF3071C322160000EB69C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A1EF3151C32363C000EB69C /* 103-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "103-map.png"; sourceTree = "<group>"; };
 		BCB0AA4941BD766609FAAEFF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,6 +115,7 @@
 				7A1EF2E61C32215E000EB69C /* ViewController.h */,
 				7A1EF2E71C32215E000EB69C /* ViewController.m */,
 				7A1EF2E91C32215E000EB69C /* Main.storyboard */,
+				7A1EF3151C32363C000EB69C /* 103-map.png */,
 				7A1EF2EC1C32215E000EB69C /* Assets.xcassets */,
 				7A1EF2EE1C32215E000EB69C /* LaunchScreen.storyboard */,
 				7A1EF2F11C32215E000EB69C /* Info.plist */,
@@ -271,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A1EF2F01C32215E000EB69C /* LaunchScreen.storyboard in Resources */,
+				7A1EF3161C32363C000EB69C /* 103-map.png in Resources */,
 				7A1EF2ED1C32215E000EB69C /* Assets.xcassets in Resources */,
 				7A1EF2EB1C32215E000EB69C /* Main.storyboard in Resources */,
 			);
