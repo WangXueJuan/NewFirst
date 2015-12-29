@@ -10,13 +10,14 @@
 		72B6931638ACB9EE47C93C9B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF36B35E22B29FE81B029A7 /* libPods.a */; };
 		7A1EF2E21C32215E000EB69C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1EF2E11C32215E000EB69C /* main.m */; };
 		7A1EF2E51C32215E000EB69C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1EF2E41C32215E000EB69C /* AppDelegate.m */; };
-		7A1EF2E81C32215E000EB69C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1EF2E71C32215E000EB69C /* ViewController.m */; };
 		7A1EF2EB1C32215E000EB69C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A1EF2E91C32215E000EB69C /* Main.storyboard */; };
 		7A1EF2ED1C32215E000EB69C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A1EF2EC1C32215E000EB69C /* Assets.xcassets */; };
 		7A1EF2F01C32215E000EB69C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A1EF2EE1C32215E000EB69C /* LaunchScreen.storyboard */; };
 		7A1EF2FB1C32215F000EB69C /* NewsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1EF2FA1C32215F000EB69C /* NewsTestTests.m */; };
 		7A1EF3061C322160000EB69C /* NewsTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1EF3051C322160000EB69C /* NewsTestUITests.m */; };
 		7A1EF3161C32363C000EB69C /* 103-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1EF3151C32363C000EB69C /* 103-map.png */; };
+		7A1EF3181C323761000EB69C /* News.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A1EF3171C323761000EB69C /* News.plist */; };
+		7A1EF31C1C323800000EB69C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1EF31B1C323800000EB69C /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,8 +44,6 @@
 		7A1EF2E11C32215E000EB69C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7A1EF2E31C32215E000EB69C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7A1EF2E41C32215E000EB69C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7A1EF2E61C32215E000EB69C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7A1EF2E71C32215E000EB69C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7A1EF2EA1C32215E000EB69C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A1EF2EC1C32215E000EB69C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A1EF2EF1C32215E000EB69C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +55,9 @@
 		7A1EF3051C322160000EB69C /* NewsTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsTestUITests.m; sourceTree = "<group>"; };
 		7A1EF3071C322160000EB69C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A1EF3151C32363C000EB69C /* 103-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "103-map.png"; sourceTree = "<group>"; };
+		7A1EF3171C323761000EB69C /* News.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = News.plist; sourceTree = "<group>"; };
+		7A1EF31A1C323800000EB69C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7A1EF31B1C323800000EB69C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BCB0AA4941BD766609FAAEFF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,14 +112,16 @@
 		7A1EF2DF1C32215E000EB69C /* NewsTest */ = {
 			isa = PBXGroup;
 			children = (
+				7A1EF31E1C323831000EB69C /* Views */,
+				7A1EF31D1C32381F000EB69C /* Modells */,
+				7A1EF3191C323800000EB69C /* Controllers */,
 				7A1EF2E31C32215E000EB69C /* AppDelegate.h */,
 				7A1EF2E41C32215E000EB69C /* AppDelegate.m */,
-				7A1EF2E61C32215E000EB69C /* ViewController.h */,
-				7A1EF2E71C32215E000EB69C /* ViewController.m */,
 				7A1EF2E91C32215E000EB69C /* Main.storyboard */,
 				7A1EF3151C32363C000EB69C /* 103-map.png */,
 				7A1EF2EC1C32215E000EB69C /* Assets.xcassets */,
 				7A1EF2EE1C32215E000EB69C /* LaunchScreen.storyboard */,
+				7A1EF3171C323761000EB69C /* News.plist */,
 				7A1EF2F11C32215E000EB69C /* Info.plist */,
 				7A1EF2E01C32215E000EB69C /* Supporting Files */,
 			);
@@ -148,6 +152,29 @@
 				7A1EF3071C322160000EB69C /* Info.plist */,
 			);
 			path = NewsTestUITests;
+			sourceTree = "<group>";
+		};
+		7A1EF3191C323800000EB69C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7A1EF31A1C323800000EB69C /* ViewController.h */,
+				7A1EF31B1C323800000EB69C /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7A1EF31D1C32381F000EB69C /* Modells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modells;
+			sourceTree = "<group>";
+		};
+		7A1EF31E1C323831000EB69C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		80CB0A48C391B18FC9D0C1C6 /* Frameworks */ = {
@@ -276,6 +303,7 @@
 				7A1EF2F01C32215E000EB69C /* LaunchScreen.storyboard in Resources */,
 				7A1EF3161C32363C000EB69C /* 103-map.png in Resources */,
 				7A1EF2ED1C32215E000EB69C /* Assets.xcassets in Resources */,
+				7A1EF3181C323761000EB69C /* News.plist in Resources */,
 				7A1EF2EB1C32215E000EB69C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,7 +377,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A1EF2E81C32215E000EB69C /* ViewController.m in Sources */,
+				7A1EF31C1C323800000EB69C /* ViewController.m in Sources */,
 				7A1EF2E51C32215E000EB69C /* AppDelegate.m in Sources */,
 				7A1EF2E21C32215E000EB69C /* main.m in Sources */,
 			);
