@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,7 +17,39 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //1.创建一个UITabBarController
+    UITabBarController *tabBarVC = [[UITabBarController alloc] init];
+    //2.创建被UITabBarController管理的视图控制器
+    ViewController *TwoVC = [[ViewController alloc] init];
+    //3.设置标签标题
+    TwoVC.tabBarItem.title = @"345678";
+    TwoVC.tabBarItem.badgeValue = @"45";
+    UINavigationController *TwoNav = [[UINavigationController alloc] initWithRootViewController:TwoVC];
+    //设置代理
+    tabBarVC.delegate = self;
+    
+    tabBarVC.viewControllers = @[TwoNav];
+    //选中的额颜色
+    tabBarVC.tabBar.tintColor = [UIColor greenColor];
+    //背景颜色
+    tabBarVC.tabBar.barTintColor = [UIColor grayColor];
+    
+    
+    
+    //添加到根视图上
+    self.window.rootViewController = tabBarVC;
+    
+    
+    
+    
+    
+    
+    
     return YES;
+    
+   
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
