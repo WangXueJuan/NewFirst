@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "OneViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -24,7 +25,7 @@
     //选中的额颜色
     tabBarVC.tabBar.tintColor = [UIColor greenColor];
     //背景颜色
-    tabBarVC.tabBar.barTintColor = [UIColor grayColor];
+    tabBarVC.tabBar.barTintColor = [UIColor whiteColor];
 
     //2.创建被UITabBarController管理的视图控制器
     ViewController *TwoVC = [[ViewController alloc] init];
@@ -33,9 +34,16 @@
     TwoVC.tabBarItem.badgeValue = @"45";
     TwoVC.tabBarItem.image = [UIImage imageNamed:@"103-map.png"];
     UINavigationController *TwoNav = [[UINavigationController alloc] initWithRootViewController:TwoVC];
+    
+    OneViewController *oneVC = [[OneViewController alloc] init];
+    UINavigationController *oneNav = [[UINavigationController alloc] initWithRootViewController:oneVC];
+    oneVC.tabBarItem.title = @"YWM";
+    oneVC.tabBarItem.badgeValue = @"10";
+    oneVC.tabBarItem.image = [UIImage imageNamed:@"103-map"];
+    
     //设置代理
     tabBarVC.delegate = self;
-    tabBarVC.viewControllers = @[TwoNav];
+    tabBarVC.viewControllers = @[oneNav ,TwoNav];
     
     
     
