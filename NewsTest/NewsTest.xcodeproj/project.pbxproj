@@ -16,8 +16,11 @@
 		7A1EF2FB1C32215F000EB69C /* NewsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1EF2FA1C32215F000EB69C /* NewsTestTests.m */; };
 		7A1EF3061C322160000EB69C /* NewsTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1EF3051C322160000EB69C /* NewsTestUITests.m */; };
 		7A1EF3161C32363C000EB69C /* 103-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1EF3151C32363C000EB69C /* 103-map.png */; };
-		7A1EF3181C323761000EB69C /* News.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A1EF3171C323761000EB69C /* News.plist */; };
 		7A1EF31C1C323800000EB69C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1EF31B1C323800000EB69C /* ViewController.m */; };
+		7A1EF3211C323FFC000EB69C /* TwoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1EF3201C323FFC000EB69C /* TwoTableViewCell.m */; };
+		7A1EF3241C326162000EB69C /* TwoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1EF3231C326162000EB69C /* TwoModel.m */; };
+		7A1EF3261C32841E000EB69C /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1EF3251C32841E000EB69C /* ImageIO.framework */; };
+		7A1EF3291C328BAC000EB69C /* TwoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1EF3281C328BAC000EB69C /* TwoDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,9 +58,15 @@
 		7A1EF3051C322160000EB69C /* NewsTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsTestUITests.m; sourceTree = "<group>"; };
 		7A1EF3071C322160000EB69C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A1EF3151C32363C000EB69C /* 103-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "103-map.png"; sourceTree = "<group>"; };
-		7A1EF3171C323761000EB69C /* News.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = News.plist; sourceTree = "<group>"; };
 		7A1EF31A1C323800000EB69C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7A1EF31B1C323800000EB69C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7A1EF31F1C323FFC000EB69C /* TwoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TwoTableViewCell.h; path = ../Controllers/TwoTableViewCell.h; sourceTree = "<group>"; };
+		7A1EF3201C323FFC000EB69C /* TwoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwoTableViewCell.m; path = ../Controllers/TwoTableViewCell.m; sourceTree = "<group>"; };
+		7A1EF3221C326162000EB69C /* TwoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoModel.h; sourceTree = "<group>"; };
+		7A1EF3231C326162000EB69C /* TwoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoModel.m; sourceTree = "<group>"; };
+		7A1EF3251C32841E000EB69C /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		7A1EF3271C328BAC000EB69C /* TwoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoDetailViewController.h; sourceTree = "<group>"; };
+		7A1EF3281C328BAC000EB69C /* TwoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoDetailViewController.m; sourceTree = "<group>"; };
 		BCB0AA4941BD766609FAAEFF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A1EF3261C32841E000EB69C /* ImageIO.framework in Frameworks */,
 				72B6931638ACB9EE47C93C9B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -121,7 +131,6 @@
 				7A1EF3151C32363C000EB69C /* 103-map.png */,
 				7A1EF2EC1C32215E000EB69C /* Assets.xcassets */,
 				7A1EF2EE1C32215E000EB69C /* LaunchScreen.storyboard */,
-				7A1EF3171C323761000EB69C /* News.plist */,
 				7A1EF2F11C32215E000EB69C /* Info.plist */,
 				7A1EF2E01C32215E000EB69C /* Supporting Files */,
 			);
@@ -159,6 +168,8 @@
 			children = (
 				7A1EF31A1C323800000EB69C /* ViewController.h */,
 				7A1EF31B1C323800000EB69C /* ViewController.m */,
+				7A1EF3271C328BAC000EB69C /* TwoDetailViewController.h */,
+				7A1EF3281C328BAC000EB69C /* TwoDetailViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -166,6 +177,8 @@
 		7A1EF31D1C32381F000EB69C /* Modells */ = {
 			isa = PBXGroup;
 			children = (
+				7A1EF3221C326162000EB69C /* TwoModel.h */,
+				7A1EF3231C326162000EB69C /* TwoModel.m */,
 			);
 			path = Modells;
 			sourceTree = "<group>";
@@ -173,6 +186,8 @@
 		7A1EF31E1C323831000EB69C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7A1EF31F1C323FFC000EB69C /* TwoTableViewCell.h */,
+				7A1EF3201C323FFC000EB69C /* TwoTableViewCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -180,6 +195,7 @@
 		80CB0A48C391B18FC9D0C1C6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7A1EF3251C32841E000EB69C /* ImageIO.framework */,
 				1CF36B35E22B29FE81B029A7 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -303,7 +319,6 @@
 				7A1EF2F01C32215E000EB69C /* LaunchScreen.storyboard in Resources */,
 				7A1EF3161C32363C000EB69C /* 103-map.png in Resources */,
 				7A1EF2ED1C32215E000EB69C /* Assets.xcassets in Resources */,
-				7A1EF3181C323761000EB69C /* News.plist in Resources */,
 				7A1EF2EB1C32215E000EB69C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,6 +394,9 @@
 			files = (
 				7A1EF31C1C323800000EB69C /* ViewController.m in Sources */,
 				7A1EF2E51C32215E000EB69C /* AppDelegate.m in Sources */,
+				7A1EF3291C328BAC000EB69C /* TwoDetailViewController.m in Sources */,
+				7A1EF3241C326162000EB69C /* TwoModel.m in Sources */,
+				7A1EF3211C323FFC000EB69C /* TwoTableViewCell.m in Sources */,
 				7A1EF2E21C32215E000EB69C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -520,7 +538,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NewsTest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-125.NewsTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -533,7 +551,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NewsTest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-125.NewsTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
