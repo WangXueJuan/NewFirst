@@ -19,13 +19,15 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    
     //1.创建一个UITabBarController
     UITabBarController *tabBarVC = [[UITabBarController alloc] init];
     //选中的额颜色
     tabBarVC.tabBar.tintColor = [UIColor greenColor];
     //背景颜色
     tabBarVC.tabBar.barTintColor = [UIColor whiteColor];
+
+
+
 
     //2.创建被UITabBarController管理的视图控制器
     ViewController *TwoVC = [[ViewController alloc] init];

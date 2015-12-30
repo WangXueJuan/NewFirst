@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TwoDetailViewController.h
 //  NewsTest
 //
 //  Created by scjy on 15/12/29.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "TwoModel.h"
-@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
-
-
+@interface TwoDetailViewController : UIViewController
+@property(nonatomic, retain) TwoModel *twoModel;
 @end
-
